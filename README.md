@@ -6,6 +6,7 @@
 
 | الكتاب | الرابط |
 | --- | --- |
+| سيرة الرسول ﷺ — الكتاب كاملًا | [فتح الكتاب](https://srmomenmmf-arch.github.io/interactive-books/sirat-al-rasul.html) |
 | منهاج القاصدين — ربع العبادات | [فتح الكتاب](https://srmomenmmf-arch.github.io/interactive-books/minhaj-1-ibadat.html) |
 | منهاج القاصدين — ربع العادات | [فتح الكتاب](https://srmomenmmf-arch.github.io/interactive-books/minhaj-2-adat.html) |
 | منهاج القاصدين — ربع المهلكات | [فتح الكتاب](https://srmomenmmf-arch.github.io/interactive-books/minhaj-3-muhlikat.html) |

@@ -1,0 +1,19 @@
+name: fix-file-name
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rename book file
+        run: |
+          git config user.name "srmomenmmf-arch"
+          git config user.email "srmomenmmf-arch@users.noreply.github.com"
+          if [ -f "1-sirat-al-rasul.html" ]; then git mv "1-sirat-al-rasul.html" "sirat-al-rasul.html"; fi
+          if [ -f "2-index.html" ]; then git rm -q -f "2-index.html"; fi
+          git add -A
+          if git diff --cached --quiet; then echo "nothing to rename"; else git commit -m "Rename Sira book file to sirat-al-rasul.html" && git push; fi
